@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: "off"
+  ai:
+    mcp:
+      server:
+        name: jenkins-mcp
+        version: 0.1.0
+        type: SYNC
+        stdio: true
+
+jenkins:
+  url: ${JENKINS_URL:}
+  user: ${JENKINS_USER:}
+  token: ${JENKINS_TOKEN:}
+  timeout-seconds: 20

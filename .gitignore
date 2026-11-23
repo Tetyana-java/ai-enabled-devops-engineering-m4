@@ -1,0 +1,31 @@
+### Build ###
+target/
+
+### IDE ###
+.idea/
+*.iml
+out/
+.kotlin
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+.vscode/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Mac OS ###
+.DS_Store
+
+### Local MCP config (contains access tokens) ###
+**/.kiro/settings/mcp.json
+
+### Private credentials ###
+private.env

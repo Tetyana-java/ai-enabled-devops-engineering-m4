@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "bitbucket": {
+      "command": "java",
+      "args": ["-jar", "bitbucket_mcp/target/bitbucket-mcp-0.1.0.jar"],
+      "env": {
+        "BITBUCKET_URL": "${BITBUCKET_URL}",
+        "BITBUCKET_TOKEN": "${BITBUCKET_TOKEN}"
+      }
+    },
+    "jenkins": {
+      "command": "java",
+      "args": ["-jar", "jenkins_mcp/target/jenkins-mcp-0.1.0.jar"],
+      "env": {
+        "JENKINS_URL": "${JENKINS_URL}",
+        "JENKINS_USER": "${JENKINS_USER}",
+        "JENKINS_TOKEN": "${JENKINS_TOKEN}"
+      }
+    }
+  }
+}
